@@ -22,6 +22,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/prismjs/prism" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/frameworks/jquery" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fortawesome/font-awesome" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twitter/bootstrap" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

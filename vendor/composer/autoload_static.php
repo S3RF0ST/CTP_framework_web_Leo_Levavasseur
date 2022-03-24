@@ -48,12 +48,12 @@ class ComposerStaticInit749dc15261df31509c1ffc93806a7bbd
         'Ubiquity\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmv/ubiquity/src/Ubiquity',
-            1 => __DIR__ . '/..' . '/phpmv/ubiquity-commands/src/Ubiquity',
-            2 => __DIR__ . '/..' . '/phpmv/ubiquity-debug/src/Ubiquity',
-            3 => __DIR__ . '/..' . '/phpmv/ubiquity-dev/src/Ubiquity',
-            4 => __DIR__ . '/..' . '/phpmv/ubiquity-devtools/src',
-            5 => __DIR__ . '/..' . '/phpmv/ubiquity-webtools/src/Ubiquity',
-            6 => __DIR__ . '/..' . '/phpmv/ubiquity-attributes/src/Ubiquity',
+            1 => __DIR__ . '/..' . '/phpmv/ubiquity-attributes/src/Ubiquity',
+            2 => __DIR__ . '/..' . '/phpmv/ubiquity-commands/src/Ubiquity',
+            3 => __DIR__ . '/..' . '/phpmv/ubiquity-debug/src/Ubiquity',
+            4 => __DIR__ . '/..' . '/phpmv/ubiquity-dev/src/Ubiquity',
+            5 => __DIR__ . '/..' . '/phpmv/ubiquity-devtools/src',
+            6 => __DIR__ . '/..' . '/phpmv/ubiquity-webtools/src/Ubiquity',
         ),
         'Twig\\' => 
         array (

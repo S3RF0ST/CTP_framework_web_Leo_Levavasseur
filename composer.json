@@ -11,7 +11,9 @@
 	"require" : {
 		"php" : ">=7.4",
 		"phpmv/ubiquity": "^2.3",
-		"twig\/twig": "^3.0"
+		"twig\/twig": "^3.0",
+		"twitter/bootstrap": "^5.1",
+		"fortawesome/font-awesome": "^6.1"
 	},
 	"license" : "Apache-2.0",
 	"authors" : [{

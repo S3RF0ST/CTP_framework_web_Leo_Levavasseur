@@ -1,15 +1,26 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.9',
-        'version' => '1.0.9.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'framework',
         'install_path' => __DIR__ . '/../../',
-        'aliases' => array(),
-        'reference' => NULL,
+        'aliases' => array(
+            0 => '2.4.x-dev',
+        ),
+        'reference' => 'd7b5b3faec7fc082979511c4953550055d72f9e8',
         'name' => 'phpmv/ubiquity-project',
         'dev' => true,
     ),
     'versions' => array(
+        'fortawesome/font-awesome' => array(
+            'pretty_version' => '6.1.1',
+            'version' => '6.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../fortawesome/font-awesome',
+            'aliases' => array(),
+            'reference' => '28e297f07af26f148c15e6cbbd12cea3027371d3',
+            'dev_requirement' => false,
+        ),
         'frameworks/jquery' => array(
             'pretty_version' => '2.1.4',
             'version' => '2.1.4.0',
@@ -92,12 +103,14 @@
             'dev_requirement' => true,
         ),
         'phpmv/ubiquity-project' => array(
-            'pretty_version' => '1.0.9',
-            'version' => '1.0.9.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'framework',
             'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
+            'aliases' => array(
+                0 => '2.4.x-dev',
+            ),
+            'reference' => 'd7b5b3faec7fc082979511c4953550055d72f9e8',
             'dev_requirement' => false,
         ),
         'phpmv/ubiquity-webtools' => array(
@@ -161,6 +174,15 @@
             'install_path' => __DIR__ . '/../twig/twig',
             'aliases' => array(),
             'reference' => '972d8604a92b7054828b539f2febb0211dd5945c',
+            'dev_requirement' => false,
+        ),
+        'twitter/bootstrap' => array(
+            'pretty_version' => 'v5.1.3',
+            'version' => '5.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twitter/bootstrap',
+            'aliases' => array(),
+            'reference' => '1a6fdfae6be09b09eaced8f0e442ca6f7680a61e',
             'dev_requirement' => false,
         ),
     ),
